@@ -4,7 +4,7 @@ const convertToCelsius = function (temp) {
 };
 
 const convertToFahrenheit = function (temp) {
-  let tempFarenheight = temp *(9/5) +32;
+  let tempFarenheight = temp *(9/5) + 32;
   return parseFloat(tempFarenheight.toFixed(1));
 };
 
